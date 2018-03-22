@@ -8,7 +8,7 @@
     <h1>Proměné</h1>
 <?php
 
-    $age=  ;
+    $age= 18 ;
 
     ?>
      <?php if ($age >=18)     {  ?>
@@ -17,7 +17,7 @@
     <?php  }  elseif ($age >=15) {
       echo "sice máš občanku, ale pít ještě nemůžeš" ;
     }
-    
+
     else { ?> <img src="img/RB" alt="Ruby buble">
 
   <?php } ?>
