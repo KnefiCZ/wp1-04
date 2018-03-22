@@ -8,9 +8,16 @@
     <h1>Proměné</h1>
 <?php
 
-    $age= ;
+    $age= 5 ;
 
- ?>
+    ?>
+     <?php if ($age >=18)     {  ?>
+      <img src="img/RS" alt="Ruskij Standart">
+    <?php  }  else { ?>
+      <img src="img/RB" alt="Ruby buble">
+     <?php   }
+   ?>
+
 
 
   </body>
