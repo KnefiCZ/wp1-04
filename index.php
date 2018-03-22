@@ -15,7 +15,8 @@
       <img src="img/RS" alt="Ruskij Standart">
     <?php  }  else { ?>
       <img src="img/RB" alt="Ruby buble">
-     <?php   }
+    <?php }
+
    ?>
 
 
