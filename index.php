@@ -8,16 +8,20 @@
     <h1>Proměné</h1>
 <?php
 
-    $age= 5 ;
+    $age=  ;
 
     ?>
      <?php if ($age >=18)     {  ?>
       <img src="img/RS" alt="Ruskij Standart">
-    <?php  }  else { ?>
-      <img src="img/RB" alt="Ruby buble">
-    <?php }
 
-   ?>
+    <?php  }  elseif ($age >=15) {
+      echo "sice máš občanku, ale pít ještě nemůžeš" ;
+    }
+    
+    else { ?> <img src="img/RB" alt="Ruby buble">
+
+  <?php } ?>
+
 
 
 
